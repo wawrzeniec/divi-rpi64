@@ -49,7 +49,6 @@ To build divi core, follow the following instructions:
 
     cd Divi/divi
     ./autogen.sh
-    ./configure --disable-tests --without-gui
 
 Then, copy the build.sh script from this repository to the Divi/divi folder and run:
 
