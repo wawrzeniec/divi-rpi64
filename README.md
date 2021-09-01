@@ -42,10 +42,10 @@ Divi core client can be built using the system SSL using the --with-unsupported-
     make
 
 ## 4. Download and build the divi core client
-To build divi core, follow the following instructions:
+To build divi core, follow the following instructions. As of now, the latest release is 2.5.1, so we clone the 2.5.1 tag using `--branch v2.5.1`. Please adjust this to use the latest stable release as per the Divi documentation.
 
     cd $DIVI_SOURCES_DIR   
-    git clone https://github.com/DiviProject/Divi.git
+    git clone --depth 1 --branch v2.5.1 https://github.com/DiviProject/Divi.git 
 
     cd Divi/divi
     ./autogen.sh
