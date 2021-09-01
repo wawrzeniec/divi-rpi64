@@ -59,3 +59,8 @@ Optionally, run make install
     ./build.sh install
 
 Optionally, you can now move or link the generated executables (in particular divid and divi-cli) to a location of your choice. 
+
+## 5. (Optional) set up a system service for the divi daemon
+In order to maximize up-time, it is advisable to set up a service so that the divi daemon will restart automatically in case of system reboot. 
+Sample configuration files can be found at:
+https://github.com/DiviProject/Divi/tree/v2.5.1/divi/contrib/init
